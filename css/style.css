@@ -1,0 +1,40 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: aquamarine;
+}
+
+.task1_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: violet;
+    margin: auto;
+}
+
+
+button {
+    width: 300px;
+    height: 100px;
+    background-color: violet;
+    color: white;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px 0px white inset,5px 5px 10px 0px black;
+    border-radius: 20px;
+    text-shadow: 5px 3px 5px black;
+}
+
+button:hover{
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 5px 5px 10px 0px black inset,-3px -3px 5px 0px white inset;
+}
+
+
+
+
+
+
