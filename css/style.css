@@ -40,7 +40,7 @@ button:hover {
 .task2_div {
     width: 600px;
     height: 700px;
-    margin:50px auto;
+    margin: 50px auto;
     padding: 50px;
 }
 
@@ -75,7 +75,7 @@ img {
 
 
 /* Task #3 */
-h1 {
+.task3 {
     letter-spacing: 20px;
     font-size: 140px;
     color: red;
@@ -98,34 +98,109 @@ h1 {
     }
 }
 
+/* Task #4 */
+.task4_div {
+    margin: 60px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 15px red solid;
+    border-bottom: 15px green solid;
+    border-right: 15px yellow solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 20px;
+
+    animation-name: spinner;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* texti trualebs da ar cherdebaaa */
+
+
+/* Task #5 */
+header{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin: 100px auto;
+}
+
+.header_ul {
+    display: flex;
+    column-gap: 48px;}
+
+.header_li{
+    font-size: 50px;
+    color: burlywood;
+    text-shadow: 3px 2px 3px black;
+    transition-duration: 1s;
+}
+
+.header_li:hover{
+    text-shadow: 0 0 5px rgb(255, 0, 179), 0 0 10px rgb(255, 0, 179), 0 0 15px rgb(255, 0, 179), 0 0 20px rgb(255, 0, 179);
+}
+
+
+
 
 
 
 /* Task #6 */
-.task6_div {
-    margin-top: 50px;
-    background-color: white;
+/* .task6_div {
+    width: 100%;
+    height: 50px;
     border: 1px black solid;
     border-radius: 40px;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation-name: Loading;
+    
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+
+}
+
+.task6_loader {
+    background-color: white;
+    border-radius: 40px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    color: red;
+    position: relative;
+    animation-name: Loading;
+}
+
+p {
+    font-size: 40px;
 }
 
 @keyframes Loading {
     0% {
-        background-color: white;
-        /* margin-left: 0; */
+        background-color: rgb(37, 7, 7);
+        left: 0;
     }
-
 
     100% {
         background-color: red;
-        /* margin-left:20px; */
+        left: 10px;
     }
-}
+} */
