@@ -160,8 +160,9 @@ header {
 
 /* Task #6 */
 .task6_div {
-    margin-top: 50px;
+    margin: 60px auto;
     background-color: white;
+    font-size: 30px;
     border: 1px black solid;
     border-radius: 40px;
     height: 50px;
